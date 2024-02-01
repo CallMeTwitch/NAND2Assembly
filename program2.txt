@@ -1,0 +1,10 @@
+D = 1
+A = 0
+*A = D       # Save D value for later
+A = ~A
+*A = D       # Print D
+*A = 0
+A = ~A
+D = D + *A   # Increment D by first register value (D = 2 * D)
+A = 1
+A = 1;JMP    # Repeat from line 1

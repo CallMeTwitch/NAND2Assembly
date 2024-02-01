@@ -1,0 +1,5 @@
+A = ~A
+*A = D + 1      # Print D + 1
+*A = 0
+A = ~A
+D = D + 1;JMP   # Increment D and repeat from beginning
